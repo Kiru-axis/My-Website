@@ -1,0 +1,65 @@
+#title{
+    color: #ba8509;
+}
+
+h2+a{
+    background-color: green;
+}
+
+
+h2:hover{
+    color: red;
+}
+/* 
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: purple;
+}
+
+li:nth-child(5){
+    color: red;
+
+}  */
+
+.link:link{
+    color: black;
+}
+
+link:active{
+    color: green;
+}
+
+link:visited{
+    color: red;
+} 
+
+ul > li{
+    background-color: black;
+    color: yellow;
+}
+
+ul[class="sports"]{
+    text-align: right;
+    text-decoration: overline;
+    color: white;
+}
+
+/* img[src^="./images/"]{
+    border: 30px solid green;
+} */
+
+p[class="para-text"]{
+    color: turquoise;
+    box-shadow: 2px 2px 5px;
+}
+
+#list{
+    color: brown;
+}
+
+img[src^="./images/"]{
+    margin: 26px;
+    border: 10px outset brown;
+}
